@@ -1,8 +1,7 @@
 # django-wsgi2
 
-*django-wsgi2* is a fork of *django-wsgi* that:
-1. Is compatible with Django 3.0.
-2. Integrates easier (especially in production).
+*django-wsgi3* is a fork of *django-wsgi2* that has been modified to be compatible with Django 4.2.
+
 
 ## Installation
 

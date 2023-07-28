@@ -46,13 +46,13 @@ class DjangoWSGIRequest(DjangoRequest):
 
     def read(self, *args, **kwargs):
         # Make environ['wsgi.input'] readable by Django, if WebOb read it
-        self._stream.stream.seek(0)
+        self.environ["wsgi.input"].seek(0)
 
         try:
             return super(DjangoWSGIRequest, self).read()
         finally:
             # Make environ['wsgi.input'] readable by WebOb
-            self._stream.stream.seek(0)
+            self.environ["wsgi.input"].seek(0)
 
 
 class DjangoApplication(DjangoWSGIHandler):
