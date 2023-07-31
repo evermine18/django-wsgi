@@ -1,4 +1,4 @@
-# django-wsgi2
+# django-wsgi3
 
 *django-wsgi3* is a fork of *django-wsgi2* that has been modified to be compatible with Django 4.2.
 
