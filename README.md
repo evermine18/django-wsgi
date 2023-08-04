@@ -7,7 +7,7 @@
 
 This package can be installed from pip3:
 ```
-pip3 install django-wsgi2
+pip3 install django-wsgi3
 ```
 
 ## Configuration
